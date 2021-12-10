@@ -3,7 +3,7 @@ import requests
 import datetime
 import os
 import tkinter as tk
-r = requests.get("http://www.havadurumu15gunluk.net/havadurumu/diyarbakir-hava-durumu-15-gunluk.html")
+r = requests.get("http://www.havadurumu15gunluk.net/havadurumu/istanbul-hava-durumu-15-gunluk.html")
 soup = BeautifulSoup(r.content)
 os.system("cls")
 print("Kaç Derece: ")
